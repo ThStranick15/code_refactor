@@ -58,14 +58,9 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
+main{
+    display: flex;
+    justify-content: space-between;
 }
 
 section {
@@ -75,6 +70,7 @@ section {
 }
 
 section article {
+    display: flex;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -87,6 +83,18 @@ section article img {
     max-height: 200px;
 }
 
+section article figcaption{
+    max-width: 100%;
+}
+
+section article img:nth-child(even){
+    margin-left: 25px;
+}
+
+section article figcaption:nth-child(even){
+    margin-left: 25px;
+}
+
 section article h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -95,8 +103,6 @@ section article h2 {
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
-    float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

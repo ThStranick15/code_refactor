@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was developed to showcase code refactoring through the updating of legacy code. The formatting of the page was updated with current standards including semantic elements and flex. This way, the page is current and also search engine optimized, as well as responsive.
+This project was developed to showcase code refactoring through the updating of legacy code. The formatting of the page was updated with current standards including semantic elements and other structuring. This way, the page is current and also search engine optimized.
 
 ## Installation
 
